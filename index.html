@@ -10,7 +10,7 @@
   <meta name="CocoaVersion" content="1894.6">
   <script src="https://randojs.com/1.0.0.js"></script>
   <script> function showRandomNumber(){document.getElementById("myNumber").innerHTML = rando(5, 10);}</script>
-  <script> function showRandomQuote(){document.getElementById("myQuote").innerHTML = JSON.stringify(rando(["Quote 1", "Quote 2", "Quote 3"]));}</script>
+  <script> function showRandomQuote(){document.getElementById("myQuote").innerHTML = Object.values(rando(["Quote 1", "Quote 2", "Quote 3"]));}</script>
   <style> #myNumber{font-size:100px; text-align:center; margin:50px auto; font-family:Arial, sans-serif;}</style>
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px Raleway; color: #000000; -webkit-text-stroke: #000000}
@@ -42,7 +42,7 @@
     <li>Gardening
   </ul>
   <div id="myQuote"></div>
-  <h3>Will this work? edna mode</h3>
+  <h3>Will this work? edna modeee</h3>
   
   <a href="https://ourchive.org" target="_blank">I started a project called Ourchive. Check it out here!</a>
   
