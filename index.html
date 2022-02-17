@@ -10,7 +10,8 @@
   <meta name="CocoaVersion" content="1894.6">
   <script src="https://randojs.com/1.0.0.js"></script>
   <script> function showRandomNumber(){document.getElementById("myNumber").innerHTML = rando(5, 10);}</script>
-  <script> function showRandomQuote(){document.getElementById("myQuote").innerHTML = Object.values(rando([""hey there" -Tejal", ""Why hello"-T", ""woo hoo" -G"]))[1];}</script>
+  <script> function showRandomQuote(){document.getElementById("myQuote").innerHTML = Object.values(rando(["Quote 1", "Quote 2", "Quote 3"]))[1];}</script>
+  <script> function together() return showRandomQuote()</script>
   <style> #myNumber{font-size:100px; text-align:center; margin:50px auto; font-family:Arial, sans-serif;}</style>
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px Raleway; color: #000000; -webkit-text-stroke: #000000}
@@ -26,7 +27,7 @@
     
   </style>
 </head>
-<body onload="showRandomQuote();">
+<body onload="together();">
   <h1>Tejal Gala</h1>
   <h2>About Me</h2>
   <p>My name is Tejal, and this is my website!<br>I recently graduated from UC Berkeley where I studied bioengineering, and I am headed off to medical school in the fall.
