@@ -41,13 +41,29 @@
                             "\"The people who are crazy enough to think they can change the world are the ones who do.\" -Steve Jobs",
                             "\"The very best thing you can do for the whole world is to make the most of yourself.\" -Wallace Wattles",
                             "\"She woke up every morning with the option of being anyone she wished. How beautiful it was that she always chose herself.\" -Tyler Kent White"];</script>
+  
+  <script> let plantlist = ["pink lemon tree",
+                            "tiger fig tree",
+                            "willow tree",
+                            "bonsai tree",
+                            "belladonna",
+                            "Coastal redwood tree",
+                            "pine tree",
+                            "digitalis",
+                            "sunflower",
+                            "Greek strawberry tree",
+                            "peperomia",
+                            "Venus fly trap"];</script>
   <script> function showRandomNumber(){document.getElementById("myNumber").innerHTML = rando(5, 10);}</script>
   <script> function showRandomQuote(){document.getElementById("myQuote").innerHTML = "Quote of the moment: " + String(Object.values(rando(quotelist))[1]);}</script>
+  <script> function showRandomPlant(){document.getElementById("myPlant").innerHTML = "Mystery plant: " + String(Object.values(rando(plantlist))[1]);}</script>
   <script> function together() {return "Quote of the day: " + showRandomQuote();}</script>
+  <script> function together() {return "Mystery plant: " + showRandomPlant();}</script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <style> #myNumber{font-size:100px; text-align:center; margin:50px auto; font-family:Arial, sans-serif;}</style>
   <style> #myQuote{margin: 15px auto; font-famiily: 'Raleway', sans-serif;}</style>
+  <style> #myPlant{margin: 15px auto; font-famiily: 'Raleway', sans-serif;}</style>
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px Raleway; color: #000000; -webkit-text-stroke: #000000}
     span.s1 {font-kerning: none}
