@@ -56,14 +56,11 @@
                             "Venus fly trap"];</script>
   <script> function showRandomNumber(){document.getElementById("myNumber").innerHTML = rando(5, 10);}</script>
   <script> function showRandomQuote(){document.getElementById("myQuote").innerHTML = "Quote of the moment: " + String(Object.values(rando(quotelist))[1]);}</script>
-  <script> function showRandomPlant(){document.getElementById("myPlant").innerHTML = "Mystery plant: " + String(Object.values(rando(plantlist))[1]);}</script>
   <script> function together() {return "Quote of the day: " + showRandomQuote();}</script>
-  <script> function together() {return "Mystery plant: " + showRandomPlant();}</script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <style> #myNumber{font-size:100px; text-align:center; margin:50px auto; font-family:Arial, sans-serif;}</style>
   <style> #myQuote{margin: 15px auto; font-famiily: 'Raleway', sans-serif;}</style>
-  <style> #myPlant{margin: 15px auto; font-famiily: 'Raleway', sans-serif;}</style>
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px Raleway; color: #000000; -webkit-text-stroke: #000000}
     span.s1 {font-kerning: none}
@@ -94,7 +91,7 @@
     
   </style>
 </head>
-<body class="mb-3 font-family-sans-serif font-size-paragraph" onload="showRandomQuote();" onload="showRandomPlant();">
+<body class="mb-3 font-family-sans-serif font-size-paragraph" onload="showRandomQuote();">
   <div class="h1 text-center font-family-serif font-size-title">Tejal Gala</div>
   <hr class="mb-0">
   <div class="sticky-top bg-black">
@@ -125,12 +122,11 @@
     <li>Reading
     <li>Playing arcade games
     <li>Gardening
-    <li>Hanging out with Brielle!  
+    <li>Hanging out with Brielle!!
   </ul>
   
   
   <a href="https://ourchive.org" target="_blank">I started a project called Ourchive. Check it out here!</a>
   <div id="myQuote"></div>
-  <div id="myPlant"></div>    
 </body>
 </html>
